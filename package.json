@@ -1,0 +1,35 @@
+{
+  "name": "teach-system",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:Icon": "vue serve ./src/components/Icon/test.vue",
+    "test:Login": "vue serve ./src/views/Login/test.vue",
+    "test:Home": "vue serve ./src/views/Mine/test.vue",
+    "test:Loading": "vue serve ./src/components/Loading/test.vue",
+    "test:NavBar": "vue serve ./src/components/NavBar/test.vue",
+    "test:Layout": "vue serve ./src/components/Layout/test.vue",
+    "test:RightList": "vue serve ./src/views/Blog/components/test.vue"
+  },
+  "dependencies": {
+    "@supermap/vue-iclient3d-webgl": "^1.0.9",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "highlight.js": "^10.7.2",
+    "laue": "^0.2.1",
+    "querystring": "^0.2.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "mockjs": "^1.1.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
